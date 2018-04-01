@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <style>
+        div {
+            width: 600px;
+            height: 200px;
+            border: 1px solid red;
+            margin-top: 20px;
+            overflow: auto;
+            background: url("2.jpg") left top /100% 100%;
+            /* background-size:  100% 100%; */
+        }
+        div.one {
+           background-attachment: fixed; 
+        }
+        div.two {
+           background-attachment: scroll; 
+        }
+        div.three {
+           background-attachment: local; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">另一个可供选择的选项是指定当内容滚动时它们是如何滚动的。这是使用background-attachment属性来控制的，该属性可以使用以下值： scroll: 这将把背景修改为页面视图，因此它将在页面滚动时滚动。注意，我们说的是视图，而不是元素——如果你滚动实际的背景设置的元素，而不是页面，背景不会滚动。
+        fixed: 这可以在页面的位置上固定背景，所以当页面滚动时，它不会滚动，不管你是滚动页面还是背景设置的元素，它都会保持在相同的位置。 local:这个值后来被添加了(它只在Internet Explorer 9+中得到支持，而其他的则在IE4+中得到支持)，因为scroll值相当混乱，并且在许多情况下并没有真正做您想要的事情。
+        local 值将背景设置为它所设置的元素的背景，因此当您滚动元素时，背景会随之滚动。 background-attachment 只有当有内容要滚动时，属性才会有效果，所以我们做了一个演示来演示这三个值之间的区别——你可以看
+        background-attachment.html（也可以在这里看源码）。
+    </div>
+    <div class="two">另一个可供选择的选项是指定当内容滚动时它们是如何滚动的。这是使用background-attachment属性来控制的，该属性可以使用以下值： scroll: 这将把背景修改为页面视图，因此它将在页面滚动时滚动。注意，我们说的是视图，而不是元素——如果你滚动实际的背景设置的元素，而不是页面，背景不会滚动。
+        fixed: 这可以在页面的位置上固定背景，所以当页面滚动时，它不会滚动，不管你是滚动页面还是背景设置的元素，它都会保持在相同的位置。 local:这个值后来被添加了(它只在Internet Explorer 9+中得到支持，而其他的则在IE4+中得到支持)，因为scroll值相当混乱，并且在许多情况下并没有真正做您想要的事情。
+        local 值将背景设置为它所设置的元素的背景，因此当您滚动元素时，背景会随之滚动。 background-attachment 只有当有内容要滚动时，属性才会有效果，所以我们做了一个演示来演示这三个值之间的区别——你可以看
+        background-attachment.html（也可以在这里看源码）。
+    </div>
+    <div class="three">另一个可供选择的选项是指定当内容滚动时它们是如何滚动的。这是使用background-attachment属性来控制的，该属性可以使用以下值： scroll: 这将把背景修改为页面视图，因此它将在页面滚动时滚动。注意，我们说的是视图，而不是元素——如果你滚动实际的背景设置的元素，而不是页面，背景不会滚动。
+        fixed: 这可以在页面的位置上固定背景，所以当页面滚动时，它不会滚动，不管你是滚动页面还是背景设置的元素，它都会保持在相同的位置。 local:这个值后来被添加了(它只在Internet Explorer 9+中得到支持，而其他的则在IE4+中得到支持)，因为scroll值相当混乱，并且在许多情况下并没有真正做您想要的事情。
+        local 值将背景设置为它所设置的元素的背景，因此当您滚动元素时，背景会随之滚动。 background-attachment 只有当有内容要滚动时，属性才会有效果，所以我们做了一个演示来演示这三个值之间的区别——你可以看
+        background-attachment.html（也可以在这里看源码）。
+    </div>
+</body>
+
+</html>
